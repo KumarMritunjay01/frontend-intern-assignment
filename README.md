@@ -10,7 +10,6 @@ This project is built as a part of the Frontend Developer Internship assignment.
 - 📱 Responsive UI
 - ⚙️ React Router and Redux Toolkit used for state and navigation
 
-## 📂 Folder Structure
 
 ## 🛠️ Tech Stack
 
@@ -37,3 +36,4 @@ This project is built as a part of the Frontend Developer Internship assignment.
 
 # Live Demo
 View Live App
+https://ad-task-assignment-gb7m.vercel.app/
