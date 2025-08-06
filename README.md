@@ -36,4 +36,4 @@ This project is built as a part of the Frontend Developer Internship assignment.
 
 # Live Demo
 View Live App
-https://ad-task-assignment-gb7m.vercel.app/
+https://frontend-intern-assignment-seven.vercel.app/
