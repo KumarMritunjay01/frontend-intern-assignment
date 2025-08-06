@@ -1,0 +1,77 @@
+.github-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.github-search-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.github-search-box input {
+    flex: 1 1 250px;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 0;
+}
+
+.github-search-box button {
+    padding: 0rem 1.5rem;
+    font-size: 1rem;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.github-search-box button:hover {
+    background-color: #024c9a;
+}
+
+/* User Card */
+.github-user-card {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.github-user-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.github-user-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.github-user-card p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (max-width: 480px) {
+    .github-search-box {
+        flex-direction: column;
+    }
+
+    .github-search-box input,
+    .github-search-box button {
+        width: 100%;
+    }
+}
